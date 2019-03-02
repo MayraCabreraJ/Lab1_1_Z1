@@ -18,7 +18,7 @@ namespace UTaritmetica
             using (srvAritmetica.WSaritmeticaClient cliente = new srvAritmetica.WSaritmeticaClient())
             {
                 var rsp = cliente.sumar(numa, numb);
-
+                 
                 //assert
                 Assert.AreEqual(resp, rsp.respuesta);
             }
